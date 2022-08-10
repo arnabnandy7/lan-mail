@@ -1,0 +1,73 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="43px" ImageUrl="~/image/home-icon.png"
+                Style="z-index: 100; left: 970px; position: absolute; top: 12px" Width="45px" />
+            <asp:ImageButton ID="ImageButton2" runat="server" Height="34px" ImageUrl="~/image/setting.png"
+                Style="z-index: 101; left: 1029px; position: absolute; top: 18px" Width="35px" />
+            <asp:Image ID="Image3" runat="server" Height="20px" ImageUrl="~/image/bannr2.jpg"
+                Style="z-index: 102; left: 9px; position: absolute; top: 61px" Width="1282px" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:ImageButton ID="ImageButton3" runat="server" Height="44px" ImageUrl="~/image/comp.jpg"
+                Style="z-index: 103; left: 13px; position: absolute; top: 80px" Width="145px" />
+            <br />
+            MAIL FOLDERS
+            <asp:LinkButton ID="LinkButton1" runat="server" Font-Bold="True" Font-Names="Times New Roman"
+                Font-Size="Medium" ForeColor="Highlight" Height="17px" Style="z-index: 104; left: 75px;
+                position: absolute; top: 182px" Width="154px">INBOX</asp:LinkButton>
+            <br />
+            <br />
+            <br />
+            <asp:ImageButton ID="ImageButton5" runat="server" Height="38px" ImageUrl="~/image/send_mail.png"
+                Style="z-index: 105; left: 16px; position: absolute; top: 213px" Width="53px" />
+            <br />
+            <br />
+            <asp:LinkButton ID="LinkButton2" runat="server" Font-Bold="True" Font-Names="Times New Roman"
+                Font-Size="Medium" ForeColor="Highlight" Style="z-index: 109; left: 75px; position: absolute;
+                top: 225px">SENT ITEMS</asp:LinkButton>
+            <br />
+            <asp:ImageButton ID="ImageButton4" runat="server" Height="34px" ImageUrl="~/image/stock_mail-compose.png"
+                Style="z-index: 107; left: 10px; position: absolute; top: 171px" Width="62px" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <asp:Panel ID="Panel1" runat="server" Height="343px" Style="z-index: 108; left: 9px;
+                position: absolute; top: 170px" Width="240px">
+            </asp:Panel>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </asp:contentplaceholder>
+        <asp:Image ID="Image1" runat="server" Height="44px" ImageUrl="~/image/email01.png"
+            Style="z-index: 100; left: 15px; position: absolute; top: 17px" Width="57px" />
+        <asp:Image ID="Image2" runat="server" Height="45px" ImageUrl="~/image/OR.jpg" Style="z-index: 102;
+            left: 74px; position: absolute; top: 15px" Width="199px" />
+    </div>
+    </form>
+</body>
+</html>
