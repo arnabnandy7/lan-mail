@@ -1,4 +1,6 @@
 # lan-mail
 LAN eMail
 
-<!-- GitAds-Verify: IDJ74V1PV3I6Z9JL2B9T7U8KHOQRI4V5 -->
+## GitAds Sponsored
+[![Sponsored by GitAds](https://gitads.dev/v1/ad-serve?source=arnabnandy7/lan-mail@github)](https://gitads.dev/v1/ad-track?source=arnabnandy7/lan-mail@github)
+
